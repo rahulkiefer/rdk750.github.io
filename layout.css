@@ -1,14 +1,8 @@
-body {
-	font-family: 'Roboto', sans-serif;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 100%;
+body,h1,h2,h3,h4,h5,h6 {
+	font-family: 'Roboto', sans-serif
 }
-
-h1 {
-	font-size: 2em;
-}
-
-p {
-	font-size: 1em;
+.w3-bar,h1,button {
+	font-family: 'Roboto', sans-serif}
+.fa-anchor,.fa-coffee {
+	font-size:200px
 }
