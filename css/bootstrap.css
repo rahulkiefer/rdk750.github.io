@@ -10652,6 +10652,12 @@ th {
   padding: 0.75rem;
 }
 
+/* Self-made class */
+.table-xs th,
+.table-xs td {
+  padding: 0.58rem;
+}
+
 .dropdown-menu {
   font-size: 0.765625rem;
   text-transform: none;
