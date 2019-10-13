@@ -17,6 +17,15 @@
   <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <meta property="og:title" content="Rahul Kiefer"/>
+  <meta property="og:image"
+        content="https://rahulkiefer.com/favicons/android-chrome-512x512.png">
+  <meta property="og:description"
+        content="Hello there! I'm Rahul Kiefer, a CS major at the University of
+                 Maryland, College Park. I'm passionate about software
+                 engineering, cybersecurity, machine learning, and more.">
+  <meta property="og:url" content="https://rahulkiefer.com">
+
   <!-- Favicons -->
   <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
@@ -29,6 +38,8 @@
   <meta name="theme-color" content="#ffffff">
 
   <!-- Bootstrap core CSS -->
+  <!-- TODO remove all extra .css and .js files from directory,
+       both for files that GitHub is tracking, as well as locally -->
   <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -40,7 +51,6 @@
       crossorigin="anonymous">
   </script>
   <link href="./css/bootstrap.css" rel="stylesheet">
-  <link href="./css/custom.css" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
   <script src="./js/bootstrap.js"></script>
 
@@ -72,10 +82,12 @@
             <span class="navbar-toggler-icon"></span>
           </button>
 
-          <!-- TODO: Change navbar from list to table -->
+		  <!-- TODO--use <span> to add "title": for each link in the navbar -->
           <div class="collapse navbar-collapse px-4" id="navbarColor02">
               <ul class="navbar-nav ml-auto p-1">
                 <!-- FOR WHEN I HAVE MORE PROJECTS TO SHARE -->
+                <!-- Projects will be further down in the main page, and not
+                     a separate webpage -->
                 <!-- <li class="nav-item">
                     <a class="nav-link" href="./projects.html">Projects<span class="sr-only">(current)</span></a>
                 </li>
