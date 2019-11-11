@@ -1,2 +1,3 @@
 # rdk750.github.io
-My portfolio website: https://rahulkiefer.com
+My portfolio website: https://rahulkiefer.com. Contains information about me, as
+well as links to my resume, LinkedIn, GitHub, and more...
