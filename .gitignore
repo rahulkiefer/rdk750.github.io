@@ -1,1 +1,9 @@
-rdk750.github.io.code-workspace
+# css files
+css/bootstrap-*
+css/bootstrap.css.map
+css/bootstrap.min.*
+
+# js files
+js/bootstrap.bundle.*
+js/bootstrap.js.map
+js/bootstrap.min.*
